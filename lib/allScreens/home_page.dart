@@ -220,7 +220,6 @@ class _HomePageState extends State<HomePage> {
     FirebaseMessaging.onMessage.listen((RemoteMessage message) {if(message.notification != null) {}
     return;
     });
-    firebaseMessaging.
   }
 
   @override
